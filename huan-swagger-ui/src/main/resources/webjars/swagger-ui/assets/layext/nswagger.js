@@ -49,14 +49,16 @@
                     if (tag["name"] == item) {
                         tag['paths'].push({
                             name: methodmeta['summary'],
-                            description: methodmeta['description'],
+                            description: methodmeta['description'] || '',
                             path: path,
+                            operationId: methodmeta['operationId'],
                             httpmethod: httpmethod
                         });
                     }
                 })
             })
         }
+
 
         /**
          * 添加自定义参数或返回值类型

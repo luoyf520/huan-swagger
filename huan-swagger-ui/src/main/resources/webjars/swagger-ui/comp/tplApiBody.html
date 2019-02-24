@@ -19,6 +19,10 @@
                                     </colgroup>
                                     <tbody>
                                     <tr>
+                                        <td>operationId</td>
+                                        <td><span class="api-badge">{{ d.mmeta.operationId }}</span></td>
+                                    </tr>
+                                    <tr>
                                         <td>接口方式</td>
                                         <td><span class="api-badge">{{ d.dhttpmethod.toUpperCase() }}</span></td>
                                     </tr>
@@ -189,7 +193,7 @@
                                 <input type="text" autocomplete="off" class="layui-input" value="{{ d.dpath }}" disabled/>
                             </div>
                             <div class="layui-input-inline">
-                                <button class="layui-btn" onclick="sendRequest()">发送请求</button>
+                                <button class="layui-btn layui-btn-danger" onclick="sendRequest()">发送请求</button>
                             </div>
                         </div>
                     </div>

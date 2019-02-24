@@ -93,7 +93,7 @@
  
   3、页面访问：UI服务器地址/api-doc.html
   
-  三、修改首页图标：根目录/logo.png（将图片地址映射到根目录下进行访问）
+  三、修改首页图标：根目录/logo.svg（将图片地址映射到根目录下进行访问）
  
  ## 使用说明(spring mvc)
  
@@ -152,7 +152,7 @@
             @EnableWebMvc
             public class MySwaggerConfig {
             }
-   3、修改首页图标：根目录/logo.png（将图片地址映射到根目录下进行访问）
+   3、修改首页图标：根目录/logo.svg（将图片地址映射到根目录下进行访问）
  
  ## 特点
   

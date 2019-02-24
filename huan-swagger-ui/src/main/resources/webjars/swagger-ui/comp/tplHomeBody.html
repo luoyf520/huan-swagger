@@ -23,6 +23,7 @@
                             <td>API版本</td>
                             <td>{{ d.info.version }}</td>
                         </tr>
+                        {{#  if(d.info.contact){ }}
                         <tr>
                             <td>联系方式</td>
                             <td class="api-inner-td">
@@ -52,6 +53,7 @@
                                 </table>
                             </td>
                         </tr>
+                        {{#  } }}
                         </tbody>
                     </table>
                 </div>

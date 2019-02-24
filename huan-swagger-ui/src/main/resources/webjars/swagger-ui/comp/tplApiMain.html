@@ -9,7 +9,7 @@
                     {{# layui.each(tag.paths, function(j, path){ }}
                     <dd>
                         <a href="javascript:;"
-                           dtitle="{{ path.name }}<br/>{{ path.description }}"
+                           dtitle="{{ path.name }} - {{ path.operationId }}<br/>{{ path.description }}"
                            dtag="{{ tag.name }}" dpath="{{ path.path }}" dhttpmethod="{{ path.httpmethod }}">{{ path.name }}</a>
                     </dd>
                     {{# }); }}

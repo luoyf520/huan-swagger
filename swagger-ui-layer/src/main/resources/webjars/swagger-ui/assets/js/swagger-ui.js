@@ -41,9 +41,9 @@ layui.use(['layer', 'element', 'form', 'nlaytpl', 'nswagger', 'ncmntool', 'uploa
                     return;
                 }
                 // 设置页面标题
-                document.title = apidoc.info.title;
+                document.title = "G7- ["+apidoc.info.title+"]";
                 // 设置页面LOGO
-                ncmntool.checkimg(apidoc.schemes[0] + "://" + apidoc.host + "/logo.png", function (imgurl) {
+                ncmntool.checkimg(apidoc.schemes[0] + "://" + apidoc.host + "/logo.svg", function (imgurl) {
                     $(".logo img").attr("src", imgurl);
                 });
                 //location.hash = apidoc.host;

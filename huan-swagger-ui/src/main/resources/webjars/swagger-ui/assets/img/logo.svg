@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 231 121" style="enable-background:new 0 0 231 121;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#LogoCopy_2_);}
+	.st1{fill:url(#LogoCopy_3_);}
+	.st2{enable-background:new    ;}
+</style>
+<linearGradient id="LogoCopy_2_" gradientUnits="userSpaceOnUse" x1="608.3586" y1="658.3607" x2="609.475" y2="658.9296" gradientTransform="matrix(230.9998 0 0 -121.4765 -140529.0938 80066.5)">
+	<stop  offset="0" style="stop-color:#3D3086"/>
+	<stop  offset="1" style="stop-color:#A63385"/>
+</linearGradient>
+<path id="LogoCopy" class="st0" d="M111.5,0L99.1,24.3H68.4c-21.6,0-39.9,15.8-43.2,37.1c-0.2,1.6-0.4,3.2-0.4,4.8
+	c0,17.8,14.5,32.3,32.3,32.3h28.1l13.3-26H57.8l11.1-22.1h67.8L101,121.5H53.9c-2.2,0-4.4-0.1-6.6-0.4C17.7,117.5-3.5,90.4,0.2,60.7
+	C4.4,26.1,33.8,0,68.8,0H111.5z M134.6,0h96.2l-60.3,121.5h-31.9l48.5-97.2h-64.5L134.6,0z"/>
+<g id="_x32_5-_x7C_-D标志使用组合" transform="translate(-811.000000, -332.000000)">
+	<g id="Group2" transform="translate(686.000000, 213.000000)">
+		<g id="Logo_1_" transform="translate(122.000000, 119.000000)">
+			<g id="Group-2_1_">
+				
+					<linearGradient id="LogoCopy_3_" gradientUnits="userSpaceOnUse" x1="615.7775" y1="657.9532" x2="616.8939" y2="658.5221" gradientTransform="matrix(307.9997 0 0 -161.9687 -188449.7969 106791.3359)">
+					<stop  offset="0" style="stop-color:#3F3086"/>
+					<stop  offset="1" style="stop-color:#A63385"/>
+				</linearGradient>
+				<path id="LogoCopy_1_" class="st1" d="M1355.9,102l-16.5,32.4h-40.8c-28.8,0-53.2,21-57.5,49.5c-0.3,2.1-0.5,4.3-0.5,6.4
+					c0,23.8,19.3,43,43,43h37.5l17.8-34.7h-54.4l14.8-29.5h90.4L1342,264h-62.8c-2.9,0-5.8-0.2-8.8-0.5c-39.6-4.8-67.8-40.9-63-80.5
+					c5.6-46.2,44.9-81,91.5-81H1355.9z M1386.8,102H1515l-80.4,162h-42.5l64.7-129.6h-86L1386.8,102z"/>
+				<text transform="matrix(1 0 0 1 1156 408)" style="font-family:'PingFang-SC-Regular'; font-size:78.9041px;">智慧物联网</text>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
