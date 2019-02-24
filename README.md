@@ -5,7 +5,7 @@
   
   1）微服务版本：微服务与 layui 分离，layui 部署到新服务器上，供各个服务使用
   
-        demo例子：http://106.12.9.238:8080/webjars/swagger-ui/index.html#106.12.9.238:8081
+        demo例子：http://127.0.0.1:8102/webjars/swagger-ui/index.html#127.0.0.1:8080
   
   2）单服务版本：layui 部署在服务上，即插即用，非常方便
 
