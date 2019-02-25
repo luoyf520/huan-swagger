@@ -14,16 +14,15 @@
             <a class="logo" href="javascript:;"><img src="assets/img/logo.svg" alt="logo"/></a>
         </div>
         <div class="layui-form header-form api-quick"></div>
+        <div class="layui-form header-form api-services">
+            <select id="serviceList" name="serviceList" lay-verify="" lay-filter="serviceList" lay-search>
+                <option value="http://172.16.1.49:8801/v2/api-docs" selected>[服务API] - 统一信审</option>
+                <option value="http://172.23.111.197:8801/v2/api-docs">[服务API] - 统一信审(刘佳环境)</option>
+                <option value="http://172.16.1.49:8802/v2/api-docs">[服务API] - 统一授权</option>
+                <option value="http://127.0.0.1:8080/v2/api-docs">[服务API] - 本机8080</option>
+            </select>
+        </div>
         <div class="layui-form header-form api-url">
-            <!--
-                <div class="layui-form header-form api-url">
-                    <select id="iptApiUrl222" type="url" name="iptApiUrl222" lay-verify="" lay-filter="iptApiUrl" lay-search>
-                        <option value="http://172.16.1.49:8801/v2/api-docs" selected>[服务API] - 统一信审</option>
-                        <option value="http://172.16.1.49:8802/v2/api-docs">[服务API] - 统一授权</option>
-                        <option value="http://127.0.0.1:8080/v2/api-docs">[服务API] - 本机localhost</option>
-                    </select>
-                </div>
-             -->
             <input id="iptApiUrl" type="url" placeholder="输入API配置的地址，默认：{location.protocol}//{location.host}/v2/api-docs" autocomplete="off" class="layui-input"/>
             <i class="layui-icon btn-clearurl">&#x1006;</i>
             <i class="layui-icon btn-gourl">&#x1002;</i>

@@ -3,10 +3,11 @@
 .header-top .logo img{ width:150px; height:40px }
 .header{ height:59px; border-bottom:1px solid #404553; background-color:#393d49 }
 .api-quick{ position:absolute; width:200px; left:200px; top:16px; }
+.api-services{ position:absolute; width:200px; right:550px; top:16px; }
 .api-url{ position:absolute; width:500px; right:20px; top:16px; }
 .api-url .btn-gourl{ position:absolute; right:10px; top:8px; color:#999999; cursor:pointer; }
 .api-url .btn-clearurl{ position:absolute; right:30px; top:8px; color:#999999; cursor:pointer; display:none; }
-.api-quick input, .api-url input{ height:30px; line-height:30px; padding-left:12px; padding-right:50px; background-color:rgba(255, 255, 255, .05); border:none 0; color:#ffffff; font-size:12px; }
+.api-services input, .api-quick input, .api-url input{ height:30px; line-height:30px; padding-left:12px; padding-right:50px; background-color:rgba(255, 255, 255, .05); border:none 0; color:#ffffff; font-size:12px; }
 .left-nav .layui-nav-item{ line-height:40px; }
 .left-nav .layui-nav-item .nav-title{ padding:0 60px 0 10px }
 .api-main .main-body{ position:fixed; left:200px; right:0; padding:10px; top:60px; bottom:0; }

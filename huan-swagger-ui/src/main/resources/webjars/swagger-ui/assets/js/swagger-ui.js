@@ -147,6 +147,11 @@ layui.use(['layer', 'element', 'form', 'nlaytpl', 'nswagger', 'ncmntool', 'uploa
     }).on('mouseout', function () {
         layer.closeAll('tips');
     });
+
+    form.on('select(serviceList)', function(data){
+        $("#iptApiUrl").val(data.value);
+        $(".btn-gourl").click();
+    });
     //
     $(".btn-gourl").click();
 });
